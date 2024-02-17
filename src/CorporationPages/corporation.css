@@ -1,3 +1,9 @@
+.typo6 {
+  white-space: nowrap;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
 .corporation-container {
   margin: 4rem;
   margin-top: 6rem;
@@ -58,4 +64,36 @@
   color: rgb(21, 70, 95);
   cursor: pointer;
   margin-bottom: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  .typo6 {
+    margin-top: 60%;
+    margin-left: 2rem;
+  }
+  .corporation-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .info-paragraph {
+    width: 100%;
+  }
+  .corporation-para {
+    width: 100%;
+  }
+  .corporation-cards {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .corporation-card {
+    width: 100%;
+  }
+  .corporation-heading {
+    font-size: 20px;
+  }
+  .corporation-img img {
+    width: 140%;
+    margin-left: -20%;
+  }
 }
