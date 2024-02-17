@@ -1,3 +1,8 @@
+.typo3 {
+  white-space: nowrap;
+  margin-left: 5%;
+  margin-top: 5%;
+}
 
 .audit-info-container {
   display: flex;
@@ -46,4 +51,38 @@
   font-size: 19px;
   font-weight: 400;
   color: rgb(8, 8, 8);
+}
+
+@media screen and (max-width: 768px) {
+  .typo3 {
+    margin-top: 60%;
+    margin-left: 2rem;
+  }
+  
+  .audit-info-container {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+  }
+  .audit-img img {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .audit-key-points-heading h1 {
+    margin-top: 2rem;
+    font-size: 22px;
+  }
+  .info-paragraphs {
+    width: 100%;
+  }
+  .audit-key-points-info {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .audit-key-points-info .text {
+    font-size: 16px;
+  }
+  
 }

@@ -7,7 +7,10 @@ import img from "../Images/img8.jpeg";
 const Corporation = () => {
   return (
     <section className="corporation-sec">
-      <div className="corporation-container">
+         <div className="info">
+          <h1 className="typo6">Corporation</h1>
+          </div>
+    <div className="corporation-container">
         <div className="info-paragraphs">
           <p className="text">
             Prish Auditors specializes in a comprehensive range of corporation

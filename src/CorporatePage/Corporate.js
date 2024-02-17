@@ -7,6 +7,9 @@ function Corporate() {
   return (
     <>
       <section className="corporate-sec">
+      <div className="info">
+          <h1 className="typo5">Corporate Consultancy</h1>
+          </div>
         <div className="corporate-sec-1  ">
           <div className="info-paragraphs">
             <p className="text">

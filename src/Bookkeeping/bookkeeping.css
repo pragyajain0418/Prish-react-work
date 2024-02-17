@@ -1,3 +1,8 @@
+.typo4 {
+  white-space: nowrap;
+  margin-left: 5%;
+  margin-top: 5%;
+}
 .bookkeeping-info-container {
   display: flex;
   flex-direction: row;
@@ -65,4 +70,50 @@
 }
 .bookkeeping-list li {
   font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .typo4 {
+    white-space: normal;
+    margin-top: 60%;
+    margin-left: 2rem;
+  }
+  .bookkeeping-info-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bookkeeping-img img {
+    width: 100%;
+    margin-left: -2%;
+  }
+  .bookeeping-container-2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  }
+  .bookkeeping-info-box {
+    justify-content: flex-start;
+  }
+  .bookkeeping-container-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;  
+  }
+  .bookkeeping-sec h1 {
+    margin-top: 2rem;
+  }
+  .bookkeeping-info h2 {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .bookkeeping-benefits h2 {
+    font-size: 30px;
+  }
+  .bookkeeping-list li {
+    font-size: 18px;
+  }
+  
 }

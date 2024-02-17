@@ -1,6 +1,10 @@
 
 /* styling the section 2 company information */
-
+.typo2 {
+  white-space: nowrap;
+  margin-left: 5%;
+  margin-top: 5%;
+}
 .row {
   display: flex;
   flex-direction: row;
@@ -124,4 +128,75 @@
   position: relative;
   transition: all 500ms ease;
   width: 50%;
+}
+
+@media  (max-width: 768px) {
+  .sec2{
+    padding: 0 2rem;
+    display: flex;
+  }
+  .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .row-info h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .sec2 .text {
+    font-size: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  .sec3 {
+    padding: 0 2rem;
+  }
+  .container-about h1 {
+    font-size: 30px;
+  }
+  .key-points-info {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .text-sec3 {
+    font-size: 16px;
+  }
+  .more-info{
+    padding: 1rem;
+  }
+  .statement h1 {
+    font-size: 30px;
+  }
+  .statement p {
+    font-size: 16px;
+  }
+  .sec4 {
+    padding: 0 2rem;
+  }
+  .sec4-content h1 {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+  }
+  .sec4-content p {
+    display: inline;
+    font-size: 16px;
+    justify-items: center;
+    text-align: center;
+  }
+  .sec4-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+  .row-img img {
+    width: 100%;
+  }
+  .typo2 {
+    margin-top: 60%;
+    margin-left: 2rem;
+  }
+  
 }
