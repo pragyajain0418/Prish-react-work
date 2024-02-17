@@ -1,3 +1,9 @@
+.typo5 {
+  white-space: nowrap;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
 .corporate-sec-1 {
   display: flex;
   flex-direction: row;
@@ -67,4 +73,55 @@
   color: rgb(21, 70, 95);
   cursor: pointer;
   margin-bottom: -6px;
+}
+
+@media screen and (max-width: 768px) {
+.typo5 {
+  white-space: normal;
+  margin-top: 60%;
+  margin-left: 2rem;
+}
+  .corporate-container {
+    flex-direction: column;
+    gap: 10px;
+}
+  .corporate-sec-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .corporate-img img {
+    width: 100%;
+  }
+  .corporate-sec-2-heading {
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 4rem;
+  }
+  .corporate-cards {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .corporate-para {
+    width: 100%;
+  }
+  .corporate-heading {
+    font-size: 24px;
+  }
+  .corporate-card {
+    width: 100%;
+  }
+  .corporate-info {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .corporate-card-img img {
+    width: 100%;
+  }
+  
 }

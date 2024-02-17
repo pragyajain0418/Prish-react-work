@@ -137,7 +137,7 @@ const Home = () => {
         <div className="info-box">
           <div className="box">
             <div className="box-icons">
-              <BsFillBuildingsFill size={70} />
+              <BsFillBuildingsFill size={50} />
             </div>
             <div className="box-content">
               <p>2 Office (Abu dubai & Delhi)</p>
@@ -146,7 +146,7 @@ const Home = () => {
 
           <div className="box">
             <div className="box-icons">
-              <IoLocationSharp size={70} />
+              <IoLocationSharp size={50} />
             </div>
             <div className="box-content">
               <p>Servicing in Middle East and India </p>
@@ -155,7 +155,7 @@ const Home = () => {
 
           <div className="box">
             <div className="box-icons">
-              <IoCall size={70} />
+              <IoCall size={50} />
             </div>
             <div className="box-content">
               <p>Call Us at (+971 567244122)</p>
@@ -164,7 +164,7 @@ const Home = () => {
 
           <div className="box">
             <div className="box-icons">
-              <IoMail size={70} />
+              <IoMail size={50} />
             </div>
             <div className="box-content">
               <p>marketing@prishauditors.com</p>
@@ -173,7 +173,7 @@ const Home = () => {
 
           <div className="box">
             <div className="box-icons">
-              <FaPeopleGroup size={70} />
+              <FaPeopleGroup size={50} />
             </div>
             <div className="box-content">
               <p>100+ Clients Globally</p>
