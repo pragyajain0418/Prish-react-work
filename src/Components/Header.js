@@ -8,16 +8,7 @@ function Header() {
     <nav>
       <div className="container">
         <div className="nav-content">
-          <div className="nav">
-            <ul className="list">
-              <Link to="/corporation">Corporation</Link>
-              <Link to="/corporate">Corporate Consultancy</Link>
-              <Link to="/bookkeeping"> Bookkeeping & Accounting</Link>
-              <Link to="/taxation">Taxation</Link>
-              <Link to="/audit">Audit</Link>
-            </ul>
-          </div>
-          <div className="logo">
+        <div className="logo">
             <img src={logosvg} alt="logo" />
           </div>
           <div className="nav">
@@ -25,10 +16,22 @@ function Header() {
               <Link to="/">Home</Link>
               <Link to="/about">About us</Link>
               <Link to="/team">Team</Link>
-              <Link to="/blog">Blog</Link>
               <Link to="/reach">Reach us</Link>
+              
+              {/* Wrap services links in dropdown container */}
+              <div className="services-dropdown">
+                <span>Services</span>
+                <div className="dropdown-content">
+                  <Link to="/corporation">Corporation</Link>
+                  <Link to="/corporate">Corporate Consultancy</Link>
+                  <Link to="/bookkeeping">Bookkeeping & Accounting</Link>
+                  <Link to="/taxation">Taxation</Link>
+                  <Link to="/audit">Audit</Link>
+                </div>
+              </div>
             </ul>
           </div>
+            
         </div>
       </div>
       <div className="headline-box">
@@ -39,4 +42,5 @@ function Header() {
     </nav>
   );
 }
+
 export default Header;
