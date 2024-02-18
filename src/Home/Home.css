@@ -6,7 +6,7 @@
   background-image: url("../Images/bgimg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  box-shadow: 10px 5px 8px rgb(166, 166, 166);
+
   animation: change 20s ease-in-out infinite;
 }
 
@@ -248,10 +248,11 @@
     background-image: url("../Images/bgimg.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    box-shadow: 10px 5px 8px rgb(166, 166, 166);
+
     animation: change 20s ease-in-out infinite;
     align-items: flex-start;
     margin-top: -180%;
+    z-index: 1;
  }
 
  .btn{
@@ -394,6 +395,4 @@
     color: rgb(32, 106, 143);
     text-shadow: 2px 2px 5px rgb(176, 175, 175);
   }
-
-
 }
